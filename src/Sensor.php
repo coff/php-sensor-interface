@@ -4,6 +4,7 @@ namespace Coff\Sensor;
 
 use Coff\DataSource\DataSource;
 use Coff\DataSource\DataSourceInterface;
+use Coff\Sensor\SensorInterface;
 
 /**
  * Sensor

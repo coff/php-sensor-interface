@@ -12,7 +12,7 @@ interface SensorInterface
 
     /**
      * Updates sensor from DataSource
-     * @return \Coff\OneWire\Sensor\SensorInterface
+     * @return \Coff\Sensor\SensorInterface
      */
     public function update();
 
