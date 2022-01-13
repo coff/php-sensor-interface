@@ -1,0 +1,26 @@
+{
+  "name": "coff/php-sensor-interface",
+  "description": "Interface project for all sensors used across Coff's projects",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Krzysztof Kubanek",
+      "email": "krzysztof.kubanek@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Coff\\Sensor\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "ssh://git@github.com/coff/php-datasource-interface.git"
+    }
+  ],
+  "require": {
+    "coff/php-datasource-interface": "0.1.*"
+  }
+}
