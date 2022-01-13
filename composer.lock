@@ -1,0 +1,45 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "61f520df6e0bfa4b85b296a08efd5121",
+    "packages": [
+        {
+            "name": "coff/php-datasource-interface",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@github.com/coff/php-datasource-interface.git",
+                "reference": "c558b27c9ff6752ed4cf37f107403a9305facc0e"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Coff\\DataSource\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Krzysztof Kubanek",
+                    "email": "krzysztof.kubanek@gmail.com"
+                }
+            ],
+            "description": "Interface package for DataSource class",
+            "time": "2022-01-13T21:16:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
