@@ -36,4 +36,7 @@ interface MqttTopicInterface
      */
     public function getMqttValueSuffix();
 
+    public function getMqttTimestampTopic();
+
+    public function getMqttValueTopic();
 }
