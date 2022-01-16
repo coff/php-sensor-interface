@@ -6,8 +6,8 @@ use Coff\DataSource\DataSourceInterface;
 
 abstract class MqttSensor extends Sensor implements MqttTopicInterface
 {
-    static $defaultMqttValueSuffix = 'value';
-    static $defaultMqttTimetampSuffix = 'stamp';
+    public static $defaultMqttValueSuffix = 'value';
+    public static $defaultMqttTimetampSuffix = 'stamp';
 
     protected $mqttBaseTopic;
     protected $mqttValueSuffix;
