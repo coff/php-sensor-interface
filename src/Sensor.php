@@ -48,6 +48,11 @@ abstract class Sensor implements SensorInterface, DataSourceInterface
      */
     protected $correction=0;
 
+    public function __construct()
+    {
+
+    }
+
     /**
      * Returns sensor's measure unit
      * @return mixed
