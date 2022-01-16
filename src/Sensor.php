@@ -39,7 +39,7 @@ abstract class Sensor implements SensorInterface, DataSourceInterface
      *
      * @var
      */
-    protected $value;
+    protected $value=0;
 
     /**
      * Sensor value linear correction
